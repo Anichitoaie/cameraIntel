@@ -1,0 +1,7 @@
+[2025-06-30 23:40:27] test_topics_listed: FAIL
+  Info: Topic /camera_manager/color/image_raw not found
+assert '/camera_manager/color/image_raw' in ['/camera/color/image_raw', '/camera/depth/image_raw', '/camera/ir/image_raw', '/camera_manager/depth/image_raw', '/camera_manager/diagnostics', '/camera_manager/ir/image_raw', ...]
+[2025-06-30 23:41:23] test_topics_listed: PASS
+[2025-07-01 00:12:34] test_topics_listed: PASS
+[2025-07-01 00:18:38] test_topics_listed: PASS
+[2025-07-01 00:28:44] test_topics_listed: PASS
