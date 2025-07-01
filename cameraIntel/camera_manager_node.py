@@ -10,7 +10,7 @@ class CameraManager(Node):
         super().__init__("stream_republisher_node")
         self.allowed_fps =[6,15,30,60]
         # Subscriber topics
-        #one more comment+111+1
+        #one more comment+111+1+11
         self.subscription_color = self.create_subscription(
             Image, '/camera/color/image_raw', self.color_callback, 10)
         self.subscription_depth = self.create_subscription(
