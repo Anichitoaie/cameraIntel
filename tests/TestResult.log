@@ -7,3 +7,12 @@ assert '/camera_manager/color/image_raw' in ['/camera/color/image_raw', '/camera
 [2025-07-01 00:28:44] test_topics_listed: PASS
 [2025-07-01 17:24:22] test_topics_listed: PASS
 [2025-07-01 18:50:16] test_latency: PASS
+[2025-07-01 20:04:07] test_topics_listed: FAIL
+  Info: Topic /camera_manager/color/image_raw not found
+assert '/camera_manager/color/image_raw' in []
+[2025-07-01 20:04:33] test_topics_listed: FAIL
+  Info: Topic /camera_manager/color/image_raw not found
+assert '/camera_manager/color/image_raw' in []
+[2025-07-01 20:06:45] test_topics_listed: FAIL
+  Info: Topic /camera_manager/color/image_raw not found
+assert '/camera_manager/color/image_raw' in []
